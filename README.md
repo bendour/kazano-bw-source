@@ -43,6 +43,10 @@ garrysmod/
 | `lua/autorun/` | Scripts de démarrage et utilitaires |
 | `cfg/` | Configuration serveur Source |
 
+## Notes
+
+- **Printers** : les printers de ce dépôt n'utilisent pas le modèle récent. Le modèle à jour est disponible dans la [collection Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3355620511) — il faut juste réadapter les `3d2d` (overlays texte/UI) sur le nouveau mesh.
+
 ## Auteur
 
 JL
