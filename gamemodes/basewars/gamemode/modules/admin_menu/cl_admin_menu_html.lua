@@ -1,7 +1,7 @@
 -- Modern HTML Admin Menu
 -- Client-side DHTML integration
 
-local HTMLLoader = include("darkrp/gamemode/modules/admin_menu/html_loader.lua")
+local HTMLLoader = include("basewars/gamemode/modules/admin_menu/html_loader.lua")
 
 -- Global avatar cache (persists between menu opens)
 BaseWars.AdminMenuAvatarCache = BaseWars.AdminMenuAvatarCache or {}

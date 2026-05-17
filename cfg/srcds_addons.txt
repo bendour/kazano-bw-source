@@ -1,16 +1,67 @@
 "srcds_addons"
 {
-	"1907060869"		"/home/lunar/gmodserver/steam_cache/content/4000/1907060869"
-	"3265954872"		"/home/lunar/gmodserver/steam_cache/content/4000/3265954872"
-	"3269258477"		"/home/lunar/gmodserver/steam_cache/content/4000/3269258477"
-	"3312284115"		"/home/lunar/gmodserver/steam_cache/content/4000/3312284115"
-	"3312291120"		"/home/lunar/gmodserver/steam_cache/content/4000/3312291120"
-	"3312293667"		"/home/lunar/gmodserver/steam_cache/content/4000/3312293667"
-	"3336988900"		"/home/lunar/gmodserver/steam_cache/content/4000/3336988900"
-	"3352730759"		"/home/lunar/gmodserver/steam_cache/content/4000/3352730759"
-	"3355609532"		"/home/lunar/gmodserver/steam_cache/content/4000/3355609532"
-	"3418814365"		"/home/lunar/gmodserver/steam_cache/content/4000/3418814365"
-	"3399242191"		"/home/lunar/gmodserver/steam_cache/content/4000/3399242191"
-	"3613581594"		"/home/lunar/gmodserver/steam_cache/content/4000/3613581594"
-	"2447774443"		"/home/lunar/gmodserver/steam_cache/content/4000/2447774443"
+	"1907060869"
+	{
+		"name"		"Srlion's Hook Library"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\1907060869"
+	}
+	"2447774443"
+	{
+		"name"		"StormFox 2"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\2447774443"
+	}
+	"3265954872"
+	{
+		"name"		"Kazano BW - Content 1"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3265954872"
+	}
+	"3269258477"
+	{
+		"name"		"Kazano BW - FPS Booster"
+	}
+	"3312284115"
+	{
+		"name"		"Kazano BW - PM 1"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3312284115"
+	}
+	"3312291120"
+	{
+		"name"		"Kazano BW - Content 2"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3312291120"
+	}
+	"3312293667"
+	{
+		"name"		"Kazano BW - Weapon 1"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3312293667"
+	}
+	"3336988900"
+	{
+		"name"		"Kazano BW - Weapon 2"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3336988900"
+	}
+	"3352730759"
+	{
+		"name"		"Kazano BW - PM 2"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3352730759"
+	}
+	"3355609532"
+	{
+		"name"		"Kazano BW - Content 3"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3355609532"
+	}
+	"3399242191"
+	{
+		"name"		"Kazano BW - Vehicles"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3399242191"
+	}
+	"3418814365"
+	{
+		"name"		"Kazano BW - Weapon 3"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3418814365"
+	}
+	"3613581594"
+	{
+		"name"		"Kazano BW - Winter Content"
+		"path"		"c:\users\lenny\desktop\dedicated\steamapps\common\garrysmodds\steam_cache\content\4000\3613581594"
+	}
 }

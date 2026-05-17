@@ -1,4 +1,4 @@
-"darkrp"
+"basewars"
 {
 	"base" "sandbox"
 	"title" "BaseWars"

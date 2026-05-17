@@ -45,9 +45,9 @@ function AdminMenuHTML.Compile()
     isCompiling = true
     
     -- Load components from lua files (use gamemode-relative paths)
-    local html = include("darkrp/gamemode/modules/admin_menu/html/admin_menu.html.lua") or ""
-    local css = include("darkrp/gamemode/modules/admin_menu/html/admin_menu.css.lua") or ""
-    local js = include("darkrp/gamemode/modules/admin_menu/html/admin_menu.js.lua") or ""
+    local html = include("basewars/gamemode/modules/admin_menu/html/admin_menu.html.lua") or ""
+    local css = include("basewars/gamemode/modules/admin_menu/html/admin_menu.css.lua") or ""
+    local js = include("basewars/gamemode/modules/admin_menu/html/admin_menu.js.lua") or ""
     
     -- Inject CSS and JS into HTML
     local compiledHTML = html

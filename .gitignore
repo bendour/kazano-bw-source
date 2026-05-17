@@ -21,3 +21,6 @@ logs/
 
 # Autoriser le fichier .gitignore lui-même
 !.gitignore
+
+# Autoriser le README
+!README.md
