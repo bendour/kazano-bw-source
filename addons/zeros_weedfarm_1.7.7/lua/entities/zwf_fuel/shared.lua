@@ -1,0 +1,9 @@
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ENT.AutomaticFrameAdvance = true
+ENT.Model = "models/zerochain/props_weedfarm/zwf_fuel.mdl"
+ENT.Spawnable = true
+ENT.AdminSpawnable = false
+ENT.PrintName = "Fuel"
+ENT.Category = "Zeros GrowOP"
+ENT.RenderGroup = RENDERGROUP_OPAQUE

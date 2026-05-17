@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"		"Advent Calendar”
+	"version"	“1.1.1”
+	"up_date"	"2025"
+	"author_name"	"JL"
+	"author_url"	"JL"
+	"info"		"The addon comes with 40+ pre-configured rewards that you can enable/disable to your liking."
+}

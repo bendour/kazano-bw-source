@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	//$color2 "{ 104 124 67 }"
+	"$blendtintbybasealpha" "1"
+	"$blendtintcoloroverbase" "0"	
+	
+	"$baseTexture"			"zerochain/props_weedfarm/muffin/zwf_muffin_skin01_diff"
+	
+	"$bumpMap"				"zerochain/props_weedfarm/muffin/zwf_muffin_skin01_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 0.1
+
+	$phongfresnelranges "[1 2 3]"
+	$phongexponent 5
+	$phongalbedotint 1	
+	
+	$envmap env_cubemap
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[1 2 3]"
+	$envmaptint "[0.025 0.025 0.025]"
+	
+	$rimlight               1
+	$rimlightexponent      1
+	$rimlightboost         0.1	
+}

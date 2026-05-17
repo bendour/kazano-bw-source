@@ -1,0 +1,10 @@
+"MonitorScreen"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/lamp/zwf_lamp02_light_diff"
+
+	"$alphatest" 1
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+}

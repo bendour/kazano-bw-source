@@ -1,0 +1,75 @@
+--[[-------------------------------------------------------------------------
+jobs.lua
+---------------------------------------------------------------------------]]
+TEAM_LEAN = DarkRP.createJob("Lean Producer", {
+    color = Color(157, 0, 214, 255),
+    model = {
+        "models/player/hostage/hostage_01.mdl",
+        "models/player/hostage/hostage_04.mdl"
+    },
+    description = [[Make some lean and / or sell it to a buyer / player for some temporary speed boosts.]],
+    weapons = {},
+    command = "leanproducer",
+    max = 4,
+    salary = 25,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = true,
+    category = "Citizens"
+})
+
+--[[-------------------------------------------------------------------------
+categories.lua
+---------------------------------------------------------------------------]]
+DarkRP.createCategory{
+    name = "Lean Production",
+    categorises = "entities",
+    startExpanded = true,
+    color = Color(17, 85, 153, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 100
+}
+
+--[[-------------------------------------------------------------------------
+entities.lua
+---------------------------------------------------------------------------]]
+DarkRP.createEntity("Lean Barrel", {
+    ent = "lean_barrel",
+    model = "models/freeman/codeine_barrel.mdl",
+    price = 5000,
+    max = 2,
+    cmd = "buyleanbarrel",
+    category = "Lean Production",
+    allowed = {TEAM_LEAN}
+})
+
+DarkRP.createEntity("Lean Crate", {
+    ent = "lean_crate",
+    model = "models/freeman/codeine_crate.mdl",
+    price = 7500,
+    max = 4,
+    cmd = "buyleancrate",
+    category = "Lean Production",
+    allowed = {TEAM_LEAN}
+})
+
+DarkRP.createEntity("Small Lean Box", {
+    ent = "lean_smallcrate",
+    model = "models/props_junk/cardboard_box001a.mdl",
+    price = 2500,
+    max = 4,
+    cmd = "buyleancratesmall",
+    category = "Lean Production",
+    allowed = {TEAM_LEAN}
+})
+
+DarkRP.createEntity("Lean Cup", {
+    ent = "lean_cup",
+    model = "models/freeman/codeine_cup.mdl",
+    price = 500,
+    max = 5,
+    cmd = "buyleancup",
+    category = "Lean Production",
+    allowed = {TEAM_LEAN}
+})

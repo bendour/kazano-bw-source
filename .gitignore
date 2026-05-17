@@ -1,0 +1,23 @@
+# Ignorer tout par défaut
+*
+
+# Autoriser les dossiers spécifiques
+!addons/
+!gamemodes/
+!cfg/
+!data/
+!lua/
+
+# Autoriser tous les fichiers dans ces dossiers récursivement
+!addons/**
+!gamemodes/**
+!cfg/**
+!data/**
+!lua/**
+
+# Ignorer les fichiers de logs (trop gros pour GitHub)
+data/basewars/logs/
+logs/
+
+# Autoriser le fichier .gitignore lui-même
+!.gitignore

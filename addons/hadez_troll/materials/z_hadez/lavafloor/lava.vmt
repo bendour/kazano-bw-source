@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "z_hadez/lavafloor/lava"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$model" 1
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.01
+			"texturescrollangle" 90
+		}
+	}
+}

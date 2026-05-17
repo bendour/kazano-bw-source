@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/weedbuyer/zwf_npc_sheet"
+	"$halflambert" 1
+	"$nodecal" "1"
+}

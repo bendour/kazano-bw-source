@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sterling/carepackage_crate_cloth"
+	"$bumpmap" "sterling/carepackage_crate_cloth_norm"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[.1 .1 .1]"	
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0.6 0.6 0.6]"
+	"$phongalbedotint" "1"	
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "1.5"
+}

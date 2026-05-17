@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_weedfarm/lamp/zwf_lamp02_diff"
+
+	"$bumpMap"				"zerochain/props_weedfarm/lamp/zwf_lamp02_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 1
+
+	$phongfresnelranges "[1 2 3]"
+	$phongexponent 25
+	$phongalbedotint 1	
+	
+	$detail "zerochain/props_weedfarm/zwf_noise01"
+	$detailscale 10
+	$detailblendfactor 2
+	$detailblendmode 0
+	
+	$envmap env_cubemap
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[1 2 3]"
+	$envmaptint "[0.025 0.025 0.025]"
+	
+	$rimlight               1
+	$rimlightexponent      15
+	$rimlightboost         0.1	
+}

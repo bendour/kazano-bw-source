@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\voidcases\wooden_crate/logo_front"
+	"$translucent" "1"
+	"$decal" "1"
+
+	"$detail" "models\voidcases\wooden_crate/mask"
+	$detailscale 1
+	$detailblendmode 9
+	$detailblendfactor 1
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.025 .025 .025]"
+	"$halflambert" 1
+}

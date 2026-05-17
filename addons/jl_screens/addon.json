@@ -1,0 +1,14 @@
+{
+    "title": "Screen Leaderboard",
+    "type": "gamemode", 
+    "tags": ["leaderboard", "basewars", "kazano"], 
+    "author": "JL",
+    "ignore": [
+        "*.psd",
+        "*.zip",
+        ".git/*",
+        "README.md"
+    ],
+    "maps": [],
+    "dependencies": []
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "z_hadez/tabs/inverter"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

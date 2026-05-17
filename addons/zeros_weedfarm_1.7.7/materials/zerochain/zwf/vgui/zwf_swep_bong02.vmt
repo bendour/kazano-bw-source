@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+ "$basetexture" "zerochain/zwf/vgui/zwf_swep_bong02"
+ "$vertexcolor" 1
+ "$vertexalpha" 1
+ "$translucent" 1
+}

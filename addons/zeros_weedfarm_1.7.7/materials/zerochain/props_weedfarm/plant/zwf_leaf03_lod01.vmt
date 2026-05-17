@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/plant/zwf_leaf03_lod01"
+	
+	"$surfaceprop" "metal"
+	
+	"$AlphaTest" "1"
+	"$AlphaTestReference" "0.333"
+	"$AllowAlphaToCoverage" "1"
+
+	"$nocull" 1
+	"$model" 1	
+
+}

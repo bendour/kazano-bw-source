@@ -1,0 +1,9 @@
+ENT.Base = "base_ai"
+ENT.Type = "ai"
+ENT.PrintName = "AShop"
+ENT.Category        = "AShop"
+ENT.Author          = "JL"
+ENT.Spawnable       = true
+ENT.AdminSpawnable  = true
+ENT.AdminOnly = true
+ENT.ViewOffset = Vector(0,0,70)

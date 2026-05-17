@@ -1,0 +1,8 @@
+"UNLITGENERIC"
+{
+	$basetexture "zerochain/zwf/particle/zwf_fly"
+
+	$DEPTHBLEND 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

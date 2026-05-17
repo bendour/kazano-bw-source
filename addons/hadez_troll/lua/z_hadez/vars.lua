@@ -1,0 +1,53 @@
+-- [[ CREATED BY ZOMBIE EXTINGUISHER ]]
+
+SH_HADEZ.VAR = SH_HADEZ.VAR or {}
+SH_HADEZ.VAR.LATESTVERSION = true
+SH_HADEZ.VAR.VERSION = SH_HADEZ.VAR.VERSION or -1
+SH_HADEZ.VAR.DEDICATED = game.IsDedicated()
+
+hook.Add("Initialize", "z_hadez_GamemodeChecker", function()
+	SH_HADEZ.VAR.ISDARKRP = DarkRP ~= nil
+end)
+
+SH_HADEZ.VAR.COLOR = {
+
+	DARK = Color(30, 30, 30),
+	MOREDARKY = Color(35, 35, 35),
+	DARKY = Color(41, 41, 41),
+	LESSDARKY = Color(45, 45, 45),
+	LIGHTDARK = Color(48, 48, 48),
+	LIGHTYDARK = Color(52, 52, 52),
+	GREY = Color(109, 125, 126),
+	DARKGREY = Color(149, 165, 166),
+	LIGHTGREY = Color(150, 150, 150),
+	
+	PURPLE = Color(154, 0, 223),
+	DARKPURPLE = Color(104, 0, 173),
+	FUCHSIA = Color(255,0,255),
+	CONTRASTFUCHSIA = Color(222, 0, 222),
+	
+	PUREBLUE = Color(0, 0, 255),
+	BLUE = Color(61, 148, 205),
+	DARKBLUE = Color(0,99,255),
+	LIGHTBLUE = Color(0, 198, 252),
+	
+	RED = Color(230, 58, 64),
+	DARKRED = Color(139, 0, 0),
+	DARKYRED = Color(75, 41, 41),
+	
+	GREEN = Color(46, 204, 113),
+	
+	LIGHTYELLOW = Color(189, 201, 15),
+	YELLOW = Color(255, 215, 0),
+	NUKE = Color(255, 255, 0),
+	
+	LIGHTORANGE = Color(255, 100, 73),
+	ORANGE = Color(230, 153, 58),
+	DARKORGANGE = Color(255, 140, 0),
+	CONTRASTORGANGE = Color(222, 121, 0),
+	SUPERDARKORGANGE = Color(191, 115, 0),
+	ORANGERED = Color(255, 83, 73),
+	CONTRASTORANGERED = Color(222, 44, 0),
+	ICONORANGE = Color(248, 164, 47)
+	
+}

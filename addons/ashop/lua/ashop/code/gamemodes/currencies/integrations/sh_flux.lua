@@ -1,0 +1,10 @@
+// You won't find this gamemode online, it's my private gm
+hook.Add("Flux_LoadedGamemode", "AShop_LoadGMFlux", function()
+    ashop.currencies.RegisterCurrency("Flux", function(ply, amt)
+        ply:ChangeMoney(amt)
+    end, function(ply)
+        return ply:GetMoney()
+    end, function(amt)
+        return Flux:FormatMoney(amt)
+    end)
+end)

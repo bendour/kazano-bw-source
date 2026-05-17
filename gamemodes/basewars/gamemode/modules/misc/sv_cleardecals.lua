@@ -1,0 +1,5 @@
+--timer.Create("BaseWars.ClearDecals", 30, 0, function()
+  --  for k, v in player.Iterator() do
+    --    v:ConCommand("r_cleardecals")
+    --end
+--end)

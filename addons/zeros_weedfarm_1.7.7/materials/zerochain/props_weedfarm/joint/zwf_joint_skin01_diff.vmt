@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_weedfarm/joint/zwf_joint_skin01_diff"
+	
+	"$bumpMap"				"zerochain/props_weedfarm/joint/zwf_joint_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 0.1
+
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 2
+	$phongalbedotint 1	
+}

@@ -1,0 +1,65 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"zerochain/zwf/effect/zwf_high_effect05_diff"
+
+	"$ignorez" "1"
+
+    "$translate" "[0.0 0.0]"
+    "$center" "[0.5 0.5]"
+	
+	"$angle" "0"
+	
+	"$def_scale" "[0.75 0.75]"
+	
+	
+	"Proxies"
+	{
+	
+		"Sine"
+		{
+            "sineperiod" 1
+            "sinemin" 0.6
+			"sinemax" 1
+			"timeoffset" 0.1
+            "resultVar" "$def_scale[0]"
+		}
+		
+		"Sine"
+		{
+            "sineperiod" 1
+            "sinemin" 0.6
+			"sinemax" 1
+			"timeoffset" 0.1
+            "resultVar" "$def_scale[1]"
+		}
+	
+		"Sine"
+		{
+            "sineperiod" 1
+            "sinemin" 0.03
+			"sinemax" 0.05
+			"timeoffset" 0.1
+            "resultVar" "$alpha"
+		}
+
+		"Sine"
+		{
+            "sineperiod" 6
+            "sinemin" -180
+			"sinemax" 180
+			"timeoffset" -0.1
+            "resultVar" "$angle"
+		}
+
+		
+        "TextureTransform"
+		{
+            "translateVar" "$translate"
+			"scaleVar"  "$def_scale"
+            "rotateVar" "$angle"
+            "centerVar" "$center"
+            "resultVar" "$basetexturetransform"
+		}
+	}
+	
+}

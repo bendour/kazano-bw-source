@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	//$color2 "{ 104 124 67 }"
+	"$blendtintbybasealpha" "1"
+	"$blendtintcoloroverbase" "0"	
+	
+	"$baseTexture"			"zerochain/props_weedfarm/muffin/zwf_muffin_skin01_lod01"
+
+	"$surfaceprop" "metal"
+	"$model" 1
+}

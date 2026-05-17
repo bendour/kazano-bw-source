@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/reggaecap/zwf_reggaecap_diff"
+	
+	"$bumpMap"				"zerochain/props_weedfarm/reggaecap/zwf_reggaecap_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 0.1
+
+	$phongfresnelranges "[1 1 1]"
+	$phongexponent 2
+	$phongalbedotint 1	
+	
+	$detail "zerochain/props_weedfarm/zwf_noise01"
+	$detailscale 10
+	$detailblendfactor 2
+	$detailblendmode 0
+}

@@ -1,0 +1,54 @@
+{
+	"title": "Casino Addon - Modern DHTML Casino",
+	"type": "gamemode",
+	"tags": [
+		"fun",
+		"casino",
+		"gambling",
+		"dhtml",
+		"blackjack",
+		"minigame",
+		"ui",
+		"modern"
+	],
+	"description": "Addon de casino moderne et modulaire pour Garry's Mod avec interface DHTML épurée. Inclut Blackjack avec d'autres jeux à venir. Compatible avec plusieurs systèmes de monnaie (Basewars, DarkRP, PointShop). Design moderne avec statistiques et historique des parties.",
+	"author": "JL",
+	"author_url": "",
+	"version": "2.0.0",
+	"gmod": {
+		"dependencies": [],
+		"hooks": [
+			"PlayerInitialSpawn",
+			"PlayerDisconnected"
+		],
+		"commands": [
+			"slots",
+			"blackjack_open",
+			"blackjack_stats"
+		],
+		"network_strings": [
+			"Blackjack_PlaceBet",
+			"Blackjack_Hit",
+			"Blackjack_Stand",
+			"Blackjack_DoubleDown",
+			"Blackjack_NewGame",
+			"Blackjack_UpdateGame",
+			"Blackjack_ShowMessage",
+			"Blackjack_GameOver"
+		],
+		"resources": [
+			"sound/blackjack/card_place.wav",
+			"sound/blackjack/card_flip.wav",
+			"sound/blackjack/chip_stack.wav",
+			"sound/blackjack/win.wav",
+			"sound/blackjack/lose.wav"
+		]
+	},
+	"workshopid": 0,
+	"ignore": [
+		".git",
+		".gitignore",
+		".vscode",
+		"README.md"
+	]
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/pot/zwf_dirt_dry_diff"
+	
+	"$bumpMap"				"zerochain/props_weedfarm/pot/zwf_dirt_dry_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "dirt"
+	"$model" 1
+}

@@ -1,0 +1,46 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"zerochain/zwf/effect/zwf_high_effect03_diff"
+
+	"$ignorez" "1"
+	//"$additive" "1"
+
+    "$translate" "[0.0 0.0]"
+    "$center" "[0.5 0.5]"
+	
+	"$angle" "0"
+	
+	"$def_scale" "[0.75 0.75]"
+	
+	
+	"Proxies"
+	{
+		
+		"Sine"
+		{
+            "sineperiod" 0.1
+            "sinemin" 0.1
+			"sinemax" 0.2
+			"timeoffset" 0.1
+            "resultVar" "$alpha"
+		}
+
+		"LinearRamp"
+		{
+            "rate" 90
+            "initialValue" 0.0
+            "resultVar" "$angle"
+		}
+
+		
+        "TextureTransform"
+		{
+            "translateVar" "$translate"
+			"scaleVar"  "$def_scale"
+            "rotateVar" "$angle"
+            "centerVar" "$center"
+            "resultVar" "$basetexturetransform"
+		}
+	}
+	
+}

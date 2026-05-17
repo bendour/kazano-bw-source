@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/plant/zwf_bud06"
+
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$nodecal" 1
+	"$halflambert" 1		
+
+	"$bumpMap"				"zerochain/props_weedfarm/plant/zwf_bud_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$phong" 1
+	"$phongboost" 5
+	"$phongexponenttexture"				"zerochain/props_weedfarm/plant/zwf_bud_phong"
+	"$phongwarptexture "				"zerochain/props_weedfarm/plant/zwf_bud_phong"	
+	"$phongfresnelranges" "[1 2 3]"
+	"$phongexponent" 3
+	"$phongalbedotint" 1
+
+	$detail "zerochain/props_weedfarm/plant/zwf_bud_phong"
+	$detailscale 1
+	$detailblendfactor 0.1
+	$detailblendmode 2
+
+	$rimlight               1
+		$rimlightexponent      15
+		$rimlightboost         1			
+}

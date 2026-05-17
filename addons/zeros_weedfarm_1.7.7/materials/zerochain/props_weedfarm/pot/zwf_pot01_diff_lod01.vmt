@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/pot/zwf_pot01_diff_lod01"
+
+	"$surfaceprop" "plastic"
+	"$model" 1
+}

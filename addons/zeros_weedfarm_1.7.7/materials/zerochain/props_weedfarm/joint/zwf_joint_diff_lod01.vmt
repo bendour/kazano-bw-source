@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_weedfarm/joint/zwf_joint_diff_lod01"
+	
+
+	"$surfaceprop" "metal"
+	"$model" 1
+}

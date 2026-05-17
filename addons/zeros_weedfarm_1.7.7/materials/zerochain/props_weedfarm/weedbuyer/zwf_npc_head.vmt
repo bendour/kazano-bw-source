@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_weedfarm/weedbuyer/zwf_npc_head"
+    "$bumpmap" 				"zerochain/props_weedfarm/weedbuyer/zwf_npc_head_normal"
+	"$halflambert" 1
+	"$nodecal" "1"
+	"$phong" "1"
+	"$phongboost" "4"
+	"$phongexponenttexture" "zerochain/props_weedfarm/weedbuyer/zwf_npc_head_phong"
+	"$phongalbedotint" "1"										
+	"$phongfresnelranges"	"[.2 .6  1]"
+}

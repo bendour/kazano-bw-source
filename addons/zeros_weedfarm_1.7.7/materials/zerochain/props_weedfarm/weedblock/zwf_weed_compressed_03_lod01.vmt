@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"						"zerochain/props_weedfarm/weedblock/zwf_weed_compressed_03_lod01"
+	
+	"$surfaceprop" "grass"
+	"$model" 1
+	"$nodecal" 1
+	"$halflambert" 1		
+}

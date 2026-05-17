@@ -1,0 +1,6 @@
+"eyes"
+{
+	"$baseTexture"			"zerochain/props_weedfarm/weedbuyer/zwf_npc_eyeball_l"
+	"$iris" "zerochain/props_weedfarm/weedbuyer/zwf_npc_pupil_l"
+	"$halflambert" 1
+}

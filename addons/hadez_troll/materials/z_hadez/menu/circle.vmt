@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "z_hadez/menu/circle"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

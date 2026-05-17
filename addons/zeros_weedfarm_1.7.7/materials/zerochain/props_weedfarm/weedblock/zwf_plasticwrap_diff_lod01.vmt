@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_weedfarm/weedblock/zwf_plasticwrap_diff_lod01"
+
+	"$surfaceprop" "plastic"
+	"$model" 1
+
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\voidlib"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "voidfactions"
+	}
+}

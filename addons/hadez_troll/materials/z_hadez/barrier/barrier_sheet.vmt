@@ -1,0 +1,21 @@
+"UnlitTwoTexture"
+{
+	$basetexture "z_hadez/barrier/barrier_sheeta"
+	$texture2 "z_hadez/barrier/barrier_sheetb"
+
+ 	"$model" 1
+	"$nocull" "1"
+	"$additive" "1"
+
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" -.1
+			"texturescrollangle" 60
+		}
+	}
+
+}
